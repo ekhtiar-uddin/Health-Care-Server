@@ -16,7 +16,7 @@ app.post(
 );
 app.use(
   cors({
-    origin: "https://reach-doc-server.onrender.com",
+    origin: ["https://reach-doc-client.vercel.app", "http://localhost:5000"],
     credentials: true,
   }),
 );
