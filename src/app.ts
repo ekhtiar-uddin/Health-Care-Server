@@ -16,7 +16,7 @@ app.post(
 );
 app.use(
   cors({
-    origin: "http://localhost:5000",
+    origin: "https://reach-doc-server.onrender.com",
     credentials: true,
   }),
 );
